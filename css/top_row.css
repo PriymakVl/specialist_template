@@ -1,0 +1,113 @@
+.top-h-row {
+	position: relative;
+}
+.topest-menu-wrp {
+	padding: 0 24px;
+}
+
+.topest-menu{
+	height: 31px;
+}
+
+.topest-menu li {
+	display: inline-block;
+	vertical-align: top;
+	list-style: none;
+	font-size: 12px;
+	line-height: 18px;
+	margin-right: 30px;
+}
+
+.topest-menu > li {
+	margin-left: 30px
+	text-align: center;
+}
+
+.topest-menu > li:first-child {
+	margin-left: 0;
+}
+
+.topest-menu li a {
+	position: relative;
+	display: block;
+	padding: 9px 0 0px;
+}
+
+.topest-menu li > a {
+	color: #777777;
+}
+
+/* phones */
+.top-h-row .phones {
+	position: absolute;
+	top: 5px;
+	left: 545px;
+}
+.phones .phone-block {
+	width: 300px;
+}
+.phones .phone-wrp {
+	position: relative;
+}
+
+.phones .phone-wrp span {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.phone-wrp .fa-phone {
+	position: absolute;
+	left: 0px;
+	top: 5px;
+	font-size: 12px;
+	color: #008642;
+	transform: rotate(90deg);
+}
+
+.phone-wrp .phone-text {
+	padding-left: 20px;
+	color: #000;
+}
+
+.phones .phone-block .callback-btn {
+	font-size: 12px;
+	color: #008642;
+	position: absolute;
+	top: 2px;
+	left: 110px;
+}
+
+.phones .phone-block .callback-btn:hover {
+	cursor: pointer;
+	color: #000;
+}
+
+/* user block */
+.h-user-block {
+	margin-top: 8px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.top-h-row .h-user-block a {
+	font-size: 12px;
+	color: #666666;
+}
+
+.top-h-row .h-user-block a.register {
+	padding: 0 24px;
+}
+
+.top-h-row .h-user-block a:hover {
+	color: #008642;
+}
+
+.top-h-row .h-user-block .fa-user {
+	font-size: 10px;
+	margin-right: 12px;
+	color: #000;
+}
+
+
+

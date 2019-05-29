@@ -1,0 +1,52 @@
+header {
+	border: 1px solid #eaebec;
+	margin: 5px 24px 0 24px;
+	padding: 10px 0 18px;
+	position: relative;
+}
+
+. logo-wrp {
+	height: 58px;
+	vertical-align: middle;
+}
+
+. logo-wrp a {
+	display: block;
+}
+
+/* search */
+.search-wrp {
+	position: absolute;
+	top: 18px;
+	left: 450px;
+}
+
+.search-wrp input[type="text"] {
+	height: 38px;
+	width: 450px;
+	background: #eee;
+	border-color: transparent;
+	font-size: 13px;
+	border-radius: 4px;
+	color: #969696;
+	border: 1px solid #eaebec;
+	padding: 0 15px;
+}
+
+.search-wrp .search-icon {
+	width: 39px;
+	height: 39px;
+	background: url('../img/ai.png') -65px 8px no-repeat;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border: 0px;
+	text-transform: none;
+	box-sizing: border-box;
+	outline: none;
+	text-indent: -999px;
+}
+
+.search-wrp .search-icon:hover {
+	cursor: pointer;
+}
