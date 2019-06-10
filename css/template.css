@@ -36,31 +36,6 @@ h2, h3, h4, h5 {
 	font-weight: 500;
 }
 
-h2 {
-	font-size:24px;
-	margin: 0 0 24px;
-}
-
-h3{
-	margin:0 0 23px;
-}
-
-h3, h3 a {
-	font-size:20px;
-	line-height:20px;
-	font-weight: 500;
-}
-
-h4 {
-	font-size:16px;
-    margin:0 0 23px;
-}
-
-h5 {
-    font-size: 14px;
-    margin: 0 0 23px;
-}
-
 img {
 	border:0;
 }
@@ -85,7 +60,6 @@ hr  {
 p {
 	color:#888888;
 	font-size:13px;
-	margin:0px 0px 20px;
 }
 
 a {
@@ -117,6 +91,15 @@ a:hover{text-decoration:none !important;}
 	background: #fff!important;
 	min-height: 200px;
 	margin: 0 auto;
+	width: 100%;
+}
+
+#content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+	margin: 24px;
 }
 
 

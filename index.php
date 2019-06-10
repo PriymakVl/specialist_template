@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 	<title> Пневмооборудование </title>
-	<meta name="viewport" initial-scale=1.0, maximum-scale=1.0, width=device-width" />
+	<meta name="viewport" initial-scale=1.0, maximum-scale=1.0, width="device-width" />
 	<meta charset="UTF-8">
 	<meta name="keywords" content="Пневмооборудование, купить пневматическое оборудование." />
 	<meta name="description" content="Купить пневмооборудование и системы автоматизации" />
@@ -23,15 +23,18 @@
 				<!-- header -->
 				<? include 'header.php' ?>
 			</div>
+
+			<!-- top menu -->
+			<? include 'top_menu.php'; ?>
+			
 			<!-- content -->
-			<div class="wraps" id="content">
-				<div class="wrapper_inner front ">
-					<!-- left block -->
-					<? //include 'left_block.php' ?>
-					<!-- right block content -->
-					<? //include 'right_block.php' ?>
-				</div> 									
-			</div> 				
+			<div id="content">
+				<!-- sidebar --> 
+				<? include 'sidebar.php'; ?>
+				<!-- main -->
+				<? include 'main.php'; ?>
+			</div>
+							
 		</div> 		
 		<!-- footer -->
 		

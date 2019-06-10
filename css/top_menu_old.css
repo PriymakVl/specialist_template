@@ -1,0 +1,68 @@
+.top-menu-wrp {
+	height: 47px;
+	width: 100%;
+	position: relative;
+	margin: 0 24px;
+	color: #fff;
+	font-size: 13px;
+}
+
+.top-menu-wrp ul.menu {
+	text-align: justify;
+	list-style-type: none; 
+}
+
+/*.adaptive_menu:after {
+	position: absolute;
+	top: 12px;
+	right: 17px;
+	content: "";
+	display: block !important;
+	width: 20px;
+	height: 20px;
+	background: url('../img/ai.png') 0px 0px no-repeat;
+}*/
+
+.top-menu-wrp a {
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 47px;
+	color: #fff;
+}
+
+.top-menu-wrp a:before {
+	position: absolute;
+	top: 13px;
+	left: 13px;
+	content: "";
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url('../img/ai.png') 0px 0px no-repeat;
+}
+
+/* catalog menu */
+.catalog-menu .fa-angle-down {
+	margin-left: 90px;
+}
+
+.catalog-menu a {
+	margin-left: 40px;
+}
+
+.catalog-menu {
+	width: 220px;
+	box-sizing: border-box;
+	background: #009f4f
+}
+
+/* top menu */
+.top-menu {
+	background: #009047;
+	white-space: nowrap;
+}
+
+.top-menu a {
+	padding-left: 39px;
+	padding-right: 40px
+}

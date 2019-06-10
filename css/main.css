@@ -1,0 +1,12 @@
+main {
+	display: flex;
+	flex: auto;
+	flex-direction: column;
+	margin-left: 20px;
+	background: red;
+}
+
+.slider {
+	height: 320px;
+	background: blue;
+}
