@@ -3,10 +3,182 @@ main {
 	flex: auto;
 	flex-direction: column;
 	margin-left: 20px;
-	background: red;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #e8e9ea;
 }
 
 .slider {
 	height: 320px;
 	background: blue;
+	border-bottom: 2px solid #009047;
 }
+
+.tiser-block {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	height: 120px;
+	padding: 0 15px;
+}
+
+.tiser-item {
+	display: flex;
+	align-items: center;
+	width: 170px;
+}
+
+.tiser-item img {
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+
+/* promo */
+
+.promo-block {
+	display: flex;
+	flex-direction: column;
+}
+
+.promo-row {
+	display: flex;
+	flex: auto;
+}
+
+.promo-row:first-child {
+	border-bottom: 2px solid #fff;
+}
+
+.promo-item {
+	display: flex;
+	flex:auto;
+	height: 220px;
+	border-right: 2px solid #fff;
+	background: grey;
+	position: relative;
+}
+
+.promo-item.big {
+	display: flex;
+	flex-grow: 2;
+}
+
+.promo-item:last-child {
+	border-right: none;
+}
+
+.promo-item a span {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	background: #009a4c;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 5px 10px;
+	text-align: center;
+}
+
+/* stock */
+.stock-wrp {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	margin-top: 13px;
+}
+
+.stock-wrp h2 {
+	padding-bottom: 20px;
+}
+
+.stock-wrp h2 span {
+	margin-right: 40px;
+}
+
+.stock-wrp h2 a {
+	color: #009047;
+	font-size: 14px;
+}
+
+.stock-wrp h2 a:hover {
+	color: #000;
+}
+
+.stock-block {
+	display: flex;
+}
+
+.stock-block a {
+	display: flex;
+	width: 220px;
+	flex-direction: column;
+	margin-right: 15px;
+	border: 1px solid #e8e9ea;
+	padding-bottom: 20px;
+}
+
+.stock-block a img {
+	height: 140px;
+	margin-bottom: 13px;
+}
+
+.stock-block a time {
+	font-size: 12px;
+	color: #333;
+	margin-left: 20px;
+}
+
+.stock-block a span {
+	color: #009047;
+	margin-left: 20px;
+	font-size: 14px;
+}
+
+.stock-block a span:hover {
+	color: #000;
+}
+
+/* above */
+.above-wrp {
+	display: flex;
+	margin-top: 45px;
+}
+
+.above-wrp img {
+	display: flex;
+	height: 215px;
+}
+
+.above-wrp article {
+	display: flex;
+	flex: auto;
+	flex-direction: column;
+	margin-left: 20px;
+}
+
+.above-wrp article p {
+	color: #333;
+	margin-top: 15px;
+}
+
+.above-wrp article a {
+	border: 1px solid #1db563;
+	padding-top: 7px;
+	padding-bottom: 8px;
+	background: transparent;
+	color: #1db563;
+	margin-top: 15px;
+	width: 90px;
+}
+
+.above-wrp article a:hover {
+	background: #1db563;
+	color: #fff;
+}
+
+
+
+
+
+

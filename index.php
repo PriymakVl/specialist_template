@@ -34,9 +34,8 @@
 				<!-- main -->
 				<? include 'main.php'; ?>
 			</div>
-							
+			<!-- footer -->
+			<? include 'footer.php'; ?>			
 		</div> 		
-		<!-- footer -->
-		
 	</body>
 </html>

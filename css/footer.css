@@ -1,0 +1,12 @@
+footer {
+	display: flex;
+	justify-content: space-around;
+	background: #F6F6F7;
+}
+
+footer .youtube {
+	width: 31px;
+	height: 31px;
+	display: block;
+	background: url('../img/social_icons.png') -2px -2px no-repeat;
+}
