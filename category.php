@@ -26,7 +26,7 @@
 				<!-- sidebar --> 
 				<? include 'sidebar.php'; ?>
 				<!-- main -->
-				<? include 'main.php'; ?>
+				<? include 'main_category.php'; ?>
 			</div>
 
 			<!-- footer -->

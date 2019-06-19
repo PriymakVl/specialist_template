@@ -33,6 +33,7 @@
 
 /*submenu */
 .catalog-menu > ul li > ul {
+	background: #fff;
 	position: absolute;
 	top: 32px;
 	left: -40px;
